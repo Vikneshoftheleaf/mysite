@@ -6,7 +6,7 @@ import * as icon from '@coreui/icons';
 export default function NavBar()
 {
     return(
-        <nav className="flex px-8 py-4 justify-between items-center border-b-2 border-black">
+        <nav className="flex p-4 justify-between items-center border-b-2 border-black">
 
             <div className="rounded-md bg-yellow-200 flex justify-center items-center text-4xl font-black h-12 w-12 border-2 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)]">
                 <Link href={'home'} >V</Link>
