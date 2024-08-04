@@ -13,6 +13,9 @@ import Flame from '@/app/public/flamono.jpg'
 import Qr from '@/app/public/freeqr.png'
 import Dark from '@/app/public/dark.png'
 import Volt from '@/app/public/volt.png'
+import Vego from '@/app/public/vego.png'
+
+
 
 
 import Link from 'next/link'
@@ -237,6 +240,29 @@ export default function Projects() {
                     <div className='flex justify-between items-center'>
                         <h2 className="text-4xl font-bold">Volt</h2>
                         <a href='https://volt.free.nf'>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                    <div className=''>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsam doloribus itaque similique, nisi labore rerum. Rerum et officiis animi tempora? Libero minus dolor rerum minima facilis maxime adipisci ut?</p>
+                    </div>
+
+                    <div className='flex gap-2 items-center mt-2'>
+                        <h2 className=" inline-block font-bold rounded-full border-2 border-black px-4 py-2 shadow-[4px_4px_0px_rgba(0,0,0,1)]">Wordpress</h2>
+                        <h2 className=" inline-block font-bold rounded-full border-2 border-black px-4 py-2 shadow-[4px_4px_0px_rgba(0,0,0,1)]">SEO</h2>
+                        <h2 className=" inline-block font-bold rounded-full border-2 border-black px-4 py-2 shadow-[4px_4px_0px_rgba(0,0,0,1)]">Plugins</h2>
+                    </div>
+
+                </div>
+
+                <div className="border-2 border-black rounded-md shadow-[4px_4px_0px_rgba(0,0,0,1)] p-6 flex flex-col gap-2">
+                    <Image src={Vego} height={100} width={100} alt='Bobukids' className='w-[250px] h-[250px]  object-contain rounded-md '></Image>
+                    <div className='flex justify-between items-center'>
+                        <h2 className="text-4xl font-bold">Vego</h2>
+                        <a href='https://vego.glitch.me'>
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
                         </a>
