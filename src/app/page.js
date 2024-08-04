@@ -14,12 +14,10 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-    <NavBar/>
     <Hero/>
-    <Testimonial/>
+    <AboutBubble/>
     <Skills/>
     <Timeline/>
-    <Footer/>
     </>
   );
 }

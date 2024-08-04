@@ -3,7 +3,6 @@
 import CIcon from "@coreui/icons-react"
 import * as icon from '@coreui/icons';
 import Link from "next/link"
-Link
 export default function Footer() {
     return (
         <footer className="bg-black w-full px-16 py-8 mt-16 text-white flex justify-between items-center">

@@ -1,19 +1,24 @@
 export default function AboutBubble() {
     return (
-        <div className="p-16">
+        <div className="p-16  flex-col gap-6">
 
-            <div class="flex items-start gap-2.5">
-                <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="Jese image"/>
-                    <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
-                        <div class="flex items-center space-x-2 rtl:space-x-reverse">
-                            <span class="text-sm font-semibold text-gray-900 dark:text-white">Viknesh</span>
-                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Today</span>
-                        </div>
-                        <p class="text-sm font-normal py-2.5 text-gray-900 dark:text-white">That's awesome. I think our users will really appreciate the improvements.</p>
-                        <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
-                    </div>
-                    
+            <div className="inline-block rounded-full  border-2 border-black px-4 py-2">
+                <h2 className="font-bold">ABOUT</h2>
             </div>
+
+
+            <div className="abt-head mb-32">
+                <h2 className="text-4xl font-bold mb-5">
+                    Every great design begins with <br /> an even <span className="text-yellow-400">better
+                        story</span>
+                </h2>
+                <p className=" text-gray-500 lg:w-1/2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Necessitatibus, optio totam. Natus tempora praesentium odit deserunt nam sequi, quibusdam
+                    inventore placeat! Iste accusamus animi magni vero. Eaque eligendi repellendus enim,
+                    voluptas impedit maxime totam quasi nostrum fugit voluptatem molestias id, quod tempora.
+                    Aliquid nisi libero doloribus porro ipsa autem ea.</p>
+            </div>
+
 
         </div>
     )

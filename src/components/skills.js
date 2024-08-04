@@ -3,7 +3,7 @@ import CIcon from "@coreui/icons-react"
 import * as icon from '@coreui/icons';
 export default function Skills() {
     return (
-        <div className="grid lg:grid-cols-10 grid-cols-1 gap-6 lg:gap-0 py-16 px-4 border-b-2 border-black">
+        <div className="grid lg:grid-cols-10 grid-cols-1 gap-6 lg:gap-0 py-16 px-4">
             <div className="col-span-4 flex justify-center items-center">
                 <h1 className="font-bold lg:text-8xl text-6xl">My Skills</h1>
             </div>
