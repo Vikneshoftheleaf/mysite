@@ -9,7 +9,7 @@ export default function Hero() {
     return (
         <section className="grid lg:grid-cols-10 grid-cols-1 gap-4 items-start justify-between lg:px-8 lg:py-16 px-4 py-8  border-black">
 
-            <div className="col-span-6 flex flex-col lg:gap-4 gap-8 justify-start lg:p-4 ">
+            <div className="col-span-6 flex flex-col gap-4 justify-start lg:p-4 ">
                 <div className="lg:px-8 flex flex-col gap-6 text-center w-full">
                     <h1 className="lg:text-start lg:mxbas-10 font-black text-6xl lg:text-8xl lg:leading-[80px] leading-[56px]">Just a Friendly Code Enthusiast</h1>
                     <p className="font-semibold lg:text-xl text-lg lg:text-start text-center ">Creating Cool Stuff, One Line at a Time 🚀😊</p>
@@ -40,7 +40,7 @@ export default function Hero() {
 
 
 
-            <div className="col-span-4 flex items-center justify-center">
+            <div className="col-span-4 flex items-center justify-center lg:pt-0 pt-8">
                 <Image src={One} width={500} height={500} alt="Images" className="m-auto"></Image>
             </div>
 

@@ -4,9 +4,11 @@ import * as icon from '@coreui/icons';
 export default function Skills() {
     return (
         <div className="grid lg:grid-cols-10 grid-cols-1 gap-6 lg:gap-0 py-16 px-4">
-            <div className="col-span-4 flex justify-center items-center">
+
+            <div className="col-span-4 flex lg:justify-center lg:items-center justify-start">
                 <h1 className="font-bold lg:text-8xl text-6xl">My Skills</h1>
             </div>
+
             <div className='col-span-6 grid grid-cols-3 justify-center items-center gap-4 '>
 
                 <div className="border-2 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] rounded-md p-4 flex justify-center items-center flex-col gap-2">
